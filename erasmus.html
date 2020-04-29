@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Course - News</title>
+<title>Praktyki WMiI - Eramsus</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Course Project">
@@ -17,7 +17,104 @@
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
+<style>
+        
+      .carasouelContainer{
+        background-color: #fff;
+        padding-bottom: 50px;
+      }
+      .slick-prev {
+        left: 50%;
+        top: -40px;
+      }
+    
+      .slick-next {
+        right: 45%;
+        top: 100%;
+      }
+    
+      .slick-prev:before {
+        content: '▲'
+      }
+    
+      .slick-next:before{
+        content: '▼'
+      }
+    
+      .slick-prev:before, .slick-next:before {
+        font-family: 'slick';
+        font-size: 30px;
+        line-height: 1;
+        opacity: .75;
+        color: #868584;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .slick-dots{
+        bottom: -10px;
+        text-align: right;
+      }
+      .draggable{
+        height: 270px !important;
+    
+      }
+      .slick-slide{
+        opacity: 0.3;
+      }
+      .slick-center{
+        opacity: 1;
+      }
+      .slick-slide img{
+        float: right;
+      }
+    
+      .slick-dots li button:before{
+        opacity: 0.15;
+        font-size: 10px;
+      }
+    
+      .slick-dots li.slick-active button:before{
+        color: #38312A;
+      }
+    
+      .sliderFor h4{
+        text-align: center;
+        font-weight: 500;
+        line-height: 1.5;
+        margin: 0px 15px;
+      }
+    
+      .leftQuote .fa{
+        color: #CDCBCA;
+        font-size: 17px;
+      }
+    
+      .rightQuote{
+        float: right;
+        margin-top: -15px;
+      }
+    
+      .rightQuote .fa{
+        color: #CDCBCA;
+        font-size: 17px;
+      }
+    
+      .stars .fa{
+        color: #F8C72E;
+        font-size: 12px;
+      }
+    
+      .carasouelHead{
+        text-align: center;
+        margin-bottom: 70px;
+      }
+
+    </style>
+	
 </head>
 <body>
 
@@ -111,7 +208,229 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</div>
 
+	<!-- Karuzela z ofertami -->
 	
+	 <div class="container">
+    
+         <section class="carousel">
+          <div class="container carasouelContainer">
+              <h1 class="carasouelHead"> Lista ofert  <b>Erasmus</b></h1>
+              <div class="col-md-12">
+                  <br>
+                  <br>
+                  
+                  <div class="col-md-4">
+                      <div class="sliderNav" style="height: 300px !important;">
+      
+                          <div class="col-md-12">
+                              <div class="col-md-6">
+                                      <img src="images/fra.png" alt="francja">
+      
+                              </div>
+                              <div class="col-md-6">
+                                      <h6>Francja</h6>
+                                      <p>2020-12-01</p>                      
+                              </div>
+                          </div>
+      
+                          
+                          <div class="col-md-12">
+                              <div class="col-md-6">
+                                  <img src="images/ang.png" alt="anglia">                              
+      
+                              </div>
+                              <div class="col-md-6">
+                                      <h6>Wielka Brytania</h6>
+                                      <p>2020-07-06</p>
+                              </div>
+                          </div>
+      
+                          
+                          <div class="col-md-12">
+                              <div class="col-md-6">
+                                  <img src="images/hol.png" alt="">
+      
+                              </div>
+                              <div class="col-md-6">
+                                      <h6>Holandia</h6>
+                                      <p>2020-05-12</p>
+                                  
+                              </div>
+                          </div>
+                          
+      
+                          
+                          <div class="col-md-12">
+                              <div class="col-md-6">
+                                  <img src="images/his.png" alt="">
+      
+                              </div>
+                              <div class="col-md-6">
+                                      <h6>Hiszpania</h6>
+                                      <p>2020-08-29</p>
+                                  
+                              </div>
+                          </div>
+      
+                          
+                          <div class="col-md-12">
+                              <div class="col-md-6">
+                                  <img src="images/wlo.png" alt="">
+      
+                              </div>
+                              <div class="col-md-6">
+                                      <h6>Włochy</h6>
+                                      <p>2020-09-15</p>
+                              </div>
+                          </div>
+                          
+      
+                          <div class="col-md-12">
+                              <div class="col-md-6">
+                                  <img src="images/bel.png" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                  <h6>Belgia</h6>
+                                  <p>2020-05-06</p>
+                              </div>
+                          </div>
+      
+                      </div>
+                  </div>
+                  <div class="col-md-1">
+                          <img src="images/side_bar.png" alt="" height="280" style="margin-top: -15px;">
+                  </div>
+                  <div class="col-md-6">
+                      <div class="sliderFor" style="height: 250px !important;">
+                          <div>
+                            
+                            
+  
+                            <h4>
+							Francja
+                            </h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+							<ul>
+							<br>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							</ul>
+                            
+                            <br>
+
+                           
+
+                          </div>
+                          <div>
+
+  
+                            <h4>
+							Wielka Brytania
+                            </h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+							<ul>
+							<br>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							</ul>	
+                           
+                            <br>
+
+                            
+
+                          </div>
+                          <div>
+
+                            
+  
+                            <h4>
+							Holandia                            
+							</h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+							<ul>
+							<br>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							</ul>
+                            
+                            <br>
+
+                            
+
+                          </div>
+                          <div>
+
+                           
+  
+                            <h4>
+                               Hiszpania
+                            </h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+							<ul>
+							<br>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							</ul>
+                           
+                            <br>
+
+                            
+
+                          </div>
+                          <div>
+
+                            
+  
+                            <h4>
+							Włochy                         
+							  </h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+							<ul>
+							<br>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							</ul>
+                            
+                            <br>
+
+                         
+
+                          </div>
+                          <div>
+
+                            
+  
+                            <h4>
+							Belgia                           
+							</h4>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+							<ul>
+							<br>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							<li>-Lorem ipsum</li>
+							</ul>
+                           
+                            <br>
+
+                            
+
+                          </div>
+                      </div>
+                      
+                  </div>
+              </div>
+                 
+          </div>
+
+      </section>
+           
+    </div>
 	
 		
 	
@@ -136,7 +455,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
 				<div class="footer_copyright">
-					<span>
+					<span color="#a5a5a5">
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Kacper Przytulski & Szymon Dera
 </span>
 				</div>
@@ -170,6 +489,54 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/custom.js"></script>
 <script src="js/elements_custom.js"></script>
 <script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+
+        $('.sliderFor').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            fade: true,
+            asNavFor: '.sliderNav'
+        });
+        $('.sliderNav').slick({
+            asNavFor: '.sliderFor',
+            dots: false,
+            focusOnSelect: true,
+            vertical: true,
+            centerMode: true,
+            centerPadding: '90px',
+            slidesToShow: 2,
+            responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+                }
+            ]
+        
+        });
+
+    </script>
 
 
 

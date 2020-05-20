@@ -325,4 +325,5 @@ $(document).ready(function()
 			});
 		}
 	}
+	
 });

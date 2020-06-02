@@ -1,7 +1,7 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Praktyki WMiI - Praktyki</title>
+<title>Praktyki WMiI - Kursy</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Course Project">
@@ -10,8 +10,8 @@
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
-<link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
 </head>
 <body>
 
@@ -25,7 +25,7 @@
 			<div class="logo_container">
 				<div class="logo">
 					<img src="images/logo.png" alt="">
-					<span>Praktyki</span>
+					<span>Kursy</span>
 				</div>
 			</div>
 
@@ -33,11 +33,11 @@
 			<nav class="main_nav_container">
 				<div class="main_nav">
 					<ul class="main_nav_list">
-					<li class="main_nav_item"><a href="index.html">Strona główna</a></li>
-						<li class="main_nav_item"><a href="courses.html">Praktyki</a></li>
-						<li class="main_nav_item"><a href="elements.html">Kursy</a></li>
+						<li class="main_nav_item"><a href="home.html">Strona główna</a></li>
+						<li class="main_nav_item"><a href="praktyki.html">Praktyki</a></li>
+						<li class="main_nav_item"><a href="kursy.html">Kursy</a></li>
 						<li class="main_nav_item"><a href="erasmus.html">Erasmus</a></li>
-						<li class="main_nav_item"><a href="contact.html">Kontakt</a></li>
+						<li class="main_nav_item"><a href="kontakt.html">Kontakt</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -67,8 +67,8 @@
 				<ul class="menu_list menu_mm">
 					<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
 					<li class="menu_item menu_mm"><a href="#">About us</a></li>
-					<li class="menu_item menu_mm"><a href="#">Courses</a></li>
-					<li class="menu_item menu_mm"><a href="elements.html">Elements</a></li>
+					<li class="menu_item menu_mm"><a href="courses.html">Courses</a></li>
+					<li class="menu_item menu_mm"><a href="#">Elements</a></li>
 					<li class="menu_item menu_mm"><a href="news.html">News</a></li>
 					<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
 				</ul>
@@ -85,7 +85,9 @@
 					</ul>
 				</div>
 
-				<div class="menu_copyright menu_mm">Colorlib All rights reserved</div>
+				<div class="menu_copyright menu_mm"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 			</div>
 
 		</div>
@@ -96,14 +98,14 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(images/courses_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
 		</div>
 		<div class="home_content">
-			<h1>Praktyki</h1>
+			<h1>Kursy</h1>
 		</div>
 	</div>
 
-	<!-- Events -->
+<!-- Events -->
 
 	<div class="events page_section">
 		<div class="container">
@@ -117,24 +119,55 @@
 
 							<div class="col-lg-2 order-lg-1 order-2">
 								<div class="event_date d-flex flex-column align-items-center justify-content-center">
-									<div class="event_day">23</div>
-									<div class="event_month">Czerwiec</div>
+									<div class="event_day">07</div>
+									<div class="event_month">Styczeń</div>
 								</div>
 							</div>
 
 							<div class="col-lg-6 order-lg-2 order-3">
 								<div class="event_content">
-									<div class="event_name"><button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalLong">
-  Przykładowe praktyki
+									<div class="event_name">								<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalLong">
+  Przykładowy kurs html
 </button></div>
-									<div class="event_location">Łódź</div>
 									<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
 								</div>
 							</div>
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="images/course_1.jpg" alt="https://unsplash.com/@claybanks1989">
+									<img src="images/event_2.jpg" alt="https://unsplash.com/@claybanks1989">
+								</div>
+							</div>
+		
+						</div>	
+					</div>
+				</div>
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-2 order-lg-1 order-2">
+								<div class="event_date d-flex flex-column align-items-center justify-content-center">
+									<div class="event_day">07</div>
+									<div class="event_month">Styczeń</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 order-lg-2 order-3">
+								<div class="event_content">
+									<div class="event_name"><button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalLong">
+  Przykładowy kurs html
+</button></div>
+									<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 order-lg-3 order-1">
+								<div class="event_image">
+									<img src="images/event_2.jpg" alt="https://unsplash.com/@claybanks1989">
 								</div>
 							</div>
 
@@ -149,61 +182,27 @@
 
 							<div class="col-lg-2 order-lg-1 order-2">
 								<div class="event_date d-flex flex-column align-items-center justify-content-center">
-									<div class="event_day">23</div>
-									<div class="event_month">Czerwiec</div>
+									<div class="event_day">07</div>
+									<div class="event_month">Styczeń</div>
 								</div>
 							</div>
 
 							<div class="col-lg-6 order-lg-2 order-3">
 								<div class="event_content">
 									<div class="event_name"><button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalLong">
-  Przykładowe praktyki
+  Przykładowy kurs html
 </button></div>
-									<div class="event_location">Łódź</div>
 									<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
 								</div>
 							</div>
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="images/course_1.jpg" alt="https://unsplash.com/@claybanks1989">
+									<img src="images/event_2.jpg" alt="https://unsplash.com/@claybanks1989">
 								</div>
 							</div>
 
 						</div>	
-					</div>
-				</div>
-
-				<!-- Event Item -->
-				<div class="row event_item">
-					<div class="col">
-						<div class="row d-flex flex-row align-items-end">
-
-							<div class="col-lg-2 order-lg-1 order-2">
-								<div class="event_date d-flex flex-column align-items-center justify-content-center">
-									<div class="event_day">23</div>
-									<div class="event_month">Czerwiec</div>
-								</div>
-							</div>
-
-							<div class="col-lg-6 order-lg-2 order-3">
-								<div class="event_content">
-									<div class="event_name"><button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalLong">
-  Przykładowe praktyki
-</button></div>
-									<div class="event_location">Łódź</div>
-									<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
-								</div>
-							</div>
-
-							<div class="col-lg-4 order-lg-3 order-1">
-								<div class="event_image">
-									<img src="images/course_1.jpg" alt="https://unsplash.com/@claybanks1989">
-								</div>
-							</div>
-
-						</div>	
-
 					</div>
 				</div>
 
@@ -212,6 +211,8 @@
 		</div>
 	</div>
 	
+
+
 <!-- Modal 1 -->
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -239,30 +240,27 @@
 	  </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
-        <button type="button" onclick="location.href='https://kariera.comarch.pl/'" class="btn btn-primary">Dowiedz się więcej</button>
+        <button type="button" onclick="location.href='https://kariera.comarch.pl/'"  class="btn btn-primary">Dowiedz się więcej</button>
       </div>
     </div>
   </div>
 </div>
-
 	<!-- Footer -->
 
 	<footer class="footer">
 		<div class="container">
-
+			
 			<!-- Footer Copyright -->
 
 			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
 				<div class="footer_copyright">
-					<span>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Kacper Przytulski & Szymon Dera
-</span>
+					<span>Colorlib All rights reserved | Kacper Przytulski & Szymon Dera</span>
 				</div>
 				<div class="footer_social ml-sm-auto">
 					<ul class="menu_social">
-						<li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-						<li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-						<li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li class="menu_social_item"><a href="https://www.instagram.com/?hl=pl"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item"><a href="https://pl-pl.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item"><a href="https://twitter.com/explore"><i class="fab fa-twitter"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -283,13 +281,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
 <script src="plugins/easing/easing.js"></script>
-<script src="js/courses_custom.js"></script>
 <script src="js/elements_custom.js"></script>
 <script src="js/custom.js"></script>
-<script>
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
-</script>
+
 </body>
 </html>
